@@ -1,0 +1,11 @@
+db.products.find({amount: {$gt: 0, $lt: 700}}).sort({name: 1})
+db.products.find({amount: {$gt: 0, $lt: 16}}).sort({name: 1})
+db.products.find({price: {$gt: 0, $lt: 16}}).sort({name: 1})
+db.products.find({price: {$gt: 0, $lt: 11}}).sort({name: 1})
+db.products.find({price: {$gt: 0, $lt: 15}}).sort({name: 1})
+db.products.find({price: {$gt: 0, $lt: 15}})
+db.products.find({price: {$gt: 0, $lt: 100}})
+db.products.find()
+show tables
+use storage
+show dbs
